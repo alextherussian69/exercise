@@ -1,0 +1,16 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ng2-bootstrap/x.x.x/ng2-bootstrap.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
+
+<p>This is the partial for view 123.</p>
+
+<h1>{{message}}</h1>
+<div ng-app="myApp.view1" ng-controller="view1Ctrl">
+    <table border="1">
+        <TR ng-repeat="person in persons">
+            <TD>{{person.Id}}</TD>
+            <TD>{{person.FirstName}}</TD>
+            <TD>{{person.LastName}}</TD>
+            <TD>{{person.JobTytle}}</TD>
+        </TR>
+    </table>
+</div>
